@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LayoutWebModule } from '@kikstart-ui/layout-web';
+import { UiNavbarModule} from '@kikstart-ui/ui-navbar';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LayoutWebModule,
+    UiNavbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
