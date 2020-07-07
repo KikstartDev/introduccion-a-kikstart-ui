@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "site2-8ce5b": {
+      "hosting": {
+        "site": [
+          "site2-8ce5b"
+        ]
+      }
+    }
+  }
+}
